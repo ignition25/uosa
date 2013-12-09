@@ -1,0 +1,121 @@
+/* FOOTER
+----------------------------------------------------- */
+#footer {
+	width: 100%;
+	font: normal 100% "Helvetica Neue", Arial, Sans-serif;
+	position: absolute;
+	left: 0;
+	background: url(images/footer-bg.jpg) #363636 repeat-x 0 0;
+	min-height: 242px;
+	height: auto;
+	z-index: 2;
+	padding-top: 27px;
+}
+
+#footer-in {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#sa-footer {
+	width: 183px;
+	height: 33px;
+	background: url(images/sa-footer-logo.png) no-repeat 0 0;
+	float: left;
+	text-indent: -9999em;
+	margin-bottom: 6px;
+}
+
+#footer #footer-in a#sa-footer:hover {
+	background: url(images/sa-footer-logo.png) transparent no-repeat 0 0;
+}
+
+#footer-in .col {
+	float: left;
+	width: 160px;
+	padding: 0 18px 0 0;
+	margin-right: 13px;
+	min-height: 170px;
+}
+
+#footer-in ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#footer-in li {
+	list-style: none;
+	line-height: 16px;
+	margin-bottom: 3px;
+}
+
+#footer-in h3 
+{
+    font-family: "Helvetica Neue";
+	color: #fff6a1;
+	font-size: 14px;
+	line-height: 14px;
+	margin-bottom: 3px;
+	font-weight: normal;
+	text-align: left;
+	width: 68.85%;
+}
+
+#footer #footer-in li a, #footer #footer-in p, #footer #footer-in a {
+	color: #cccccc;
+	font-size: 12px;
+}
+
+#footer #footer-in li a {
+	/*line-height: 0px;*/
+}
+
+#footer #footer-in a:hover, #footer #footer-in a:focus {
+	background: #fff7a1;
+	color: #333;
+	text-decoration: none;
+}
+
+
+#footer-in #col-1 a, #footer-in #col-1 p {
+	margin-bottom: 9px;
+	line-height: 16px;
+} 
+
+#footer-in #col-2, #footer-in #col-3, #footer-in #col-4 {
+	width: 173px;
+}
+
+#footer-in #col-1, #footer-in #col-4 {
+	background: url(../image/footer-div.png) no-repeat right 0;
+}
+
+#footer-in #col-2, #footer-in #col-3 {
+	margin-right: 5px;
+}
+
+#footer-in #col-5 {
+	width: 173px;
+	margin-right: 0;
+	padding: 0;
+}
+
+#footer #tagline {
+
+	float: right;
+	margin-right: 3px;
+	clear: both;
+	width: 180px;
+	margin-bottom: 21px;
+}
+
+#footer-in #col-1 p {
+	text-align: right;
+}
+
+#footer a:link {color:#000; text-decoration:none;}      /* unvisited link */
+#footer a:visited {color:#000;}  /* visited link */
+#footer a:hover {color:#000; opacity:0.8;filter:alpha(opacity=80); -webkit-transition: opacity 0.3s ease;}  /* mouse over link */
+#footer a:active {color:#000;}  /* selected link */
+
+

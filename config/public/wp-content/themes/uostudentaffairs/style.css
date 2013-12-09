@@ -1,0 +1,255 @@
+/*
+Theme Name: UO Student Affairs
+Theme URI: http://camjuarez.com;
+Description: Custom theme built by <a href="http://venturedept.com">The Venture Dept.</a> for UO Student Affairs.
+Author: Cam Juarez
+Author URI: http://camjuarez.com
+Version: 1.0
+Tags: responsive, Oregon, bootstrap
+
+License: 
+License URI: 
+
+*/
+
+@import url('css/bootstrap.css'); 
+
+#navbar-centered-logo {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.navbar-centered-brand:hover{
+	text-decoration: none;
+	color: #777777;
+}
+
+.navbar {
+	text-align: center;
+}
+
+.navbar-nav {
+	float: none;
+	display: inline-block;
+}
+
+.carousel-inner {
+	max-height: 340px;
+}
+
+.carousel {
+	margin-bottom: 40px;
+}
+
+.single-post h1, .single-page h1 {
+	margin-bottom: 20px;
+}
+
+.single-post .post-meta, .single-page .post-meta {
+	margin-bottom: 10px;
+}
+
+.post-content {
+	font-family: "Times New Roman", serif;
+}
+
+.aligncenter {
+	margin: 25px auto;	
+}
+
+.alignright {
+	float: right;
+	margin: 0 0 25px 25px;
+}
+
+.alignleft {
+	float: left;
+	margin: 0 25px 25px 0;
+}
+
+.page-title {
+	margin-bottom: 30px;
+}
+
+.wp-caption img {
+	margin-bottom: 12px;
+}
+
+.wp-caption {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+}
+
+#sidebar ul {
+	padding-left: 0;
+}
+
+#sidebar ul li.sidebar-item {
+	list-style: none;
+	padding: 20px 0;
+}
+
+/* Add border to bottom of sidebar widgets. */
+
+#sidebar > ul > li+li {
+	border-top: 1px solid #666666;
+}
+
+#sidebar ul li {
+	list-style: none;
+}
+
+/* Hide search labels. */
+
+label[for=s] {
+	display: none;
+}
+
+.content-wrapper {
+	margin: 40px 0 80px 0;
+}
+
+/* UO BAR */
+
+#uobar-container {
+	width: 100%;
+	background: #000000;
+}
+
+#uobar {
+	display: block;
+	background-image: url(/images/logobar_black.png);
+	background-repeat: repeat-x;
+	width: 935px;
+	height: 41px;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+}
+	
+#uologobox {
+	float: left;
+	width: 216px;
+	height: 41px;
+	margin: 0px 0px 0px 0px;
+	padding: 2px 0px 0px 0px;
+}
+	
+#uologo {
+	float: left;
+	display: block;
+	width: 221px;
+	height: 41px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+	
+#uolinks {
+	float: right;
+	text-align: right;
+	width: 300px;
+	margin: 0px 0px 5px 5px;
+	padding: 9px 4px 4px 4px;
+	line-height: 21px;
+	color: #E9E6D6;
+}
+
+a.uonav:link, a.uonav:visited {
+	font-size: .8em;
+	line-height: 1em;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+	
+a.uonav:hover {
+	text-decoration: underline;
+}
+
+/* End UO Bar */
+
+.category-featured-image {
+	width: 150px;
+	height: 150px;
+}
+
+.category-description {
+	max-width: 70%;
+	font-size: 14px;
+	font-family: "Times New Roman", serif;
+	font-style: italic;
+}
+
+.sidebar-search {
+	margin-bottom: 25px;
+}
+
+#sidebar-icon-links {
+	font-weight: bold;
+}
+
+#sidebar-icon-links a li{
+	color: #333;
+}
+
+#sidebar-icon-links li {
+	margin-bottom: 10px;
+}
+
+#sidebar-icon-links li span {
+	margin-left: 10px;
+	position: relative;
+	top: 1px;
+}
+
+#menu-sidebar-links a{
+	color: #333;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.pagination a {
+	font-weight: bold;
+	color: #333;
+}
+
+.post-date {
+	letter-spacing: 2px;
+}
+
+.post-loop .attachment-post-thumbnail {
+	width: 49px;
+	height: 49px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+.post-loop .post {
+	margin-bottom: 25px;
+}
+
+.index-category-pane {
+	width: 30%;
+	margin: 0 3% 3% 0;
+	display: inline-block;
+	float: left;
+}
+
+.index-category-pane img {
+	max-width: 100%;
+}
+
+.post-loop .post .post-title ,
+.index-category-title {
+	color: #333333;
+}
+
+#navbar a {
+	color: #333333;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.navicon {
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+}
