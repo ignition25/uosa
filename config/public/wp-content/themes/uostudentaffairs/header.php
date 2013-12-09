@@ -58,12 +58,12 @@
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav" id="navbar">
             <!-- <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?> -->
-              <li><a href="#">PEOPLE</a></li>
-              <li><a href="#">KUDOS</a></li>
-              <li><a href="#">NEWS</a></li>
+              <li><a href="<?php echo esc_url(get_category_link( get_cat_ID( 'People' ) )); ?>">PEOPLE</a></li>
+              <li><a href="<?php echo esc_url(get_category_link( get_cat_ID( 'Kudos' ) )); ?>">KUDOS</a></li>
+              <li><a href="<?php echo esc_url(get_category_link( get_cat_ID( 'News' ) )); ?>">NEWS</a></li>
               <li><a href="<?php echo site_url(); ?>" style="padding: 5px 45px;"><img id="navbar-centered-logo" src="<?php echo get_bloginfo('template_url') ?>/images/logo.png" /></a></li>
-              <li><a href="#">HIGHLIGHTS</a></li>
-              <li><a href="./">STUDENT EXPERIENCE</a></li>
+              <li><a href="<?php echo esc_url(get_category_link( get_cat_ID( 'Highlights' ) )); ?>">HIGHLIGHTS</a></li>
+              <li><a href="<?php echo esc_url(get_category_link( get_cat_ID( 'Student Experiences' ) )); ?>">STUDENT EXPERIENCE</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
