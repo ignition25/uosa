@@ -56,4 +56,42 @@
 	function category_path($slug) {
 		echo "/category/" . $slug . "/";
 	}
+
+	// Category images.
+	if(function_exists("register_field_group")) {
+		register_field_group(array (
+			'id' => 'acf_categories',
+			'title' => 'Categories',
+			'fields' => array (
+				array (
+					'key' => 'field_52a529e9ba299',
+					'label' => 'Featured Image',
+					'name' => 'featured_image',
+					'type' => 'image',
+					'instructions' => 'Shown on category page.',
+					'save_format' => 'id',
+					'preview_size' => 'thumbnail',
+					'library' => 'all',
+				),
+			),
+			'location' => array (
+				array (
+					array (
+						'param' => 'ef_taxonomy',
+						'operator' => '==',
+						'value' => 'all',
+						'order_no' => 0,
+						'group_no' => 0,
+					),
+				),
+			),
+			'options' => array (
+				'position' => 'normal',
+				'layout' => 'no_box',
+				'hide_on_screen' => array (
+				),
+			),
+			'menu_order' => 0,
+		));
+	}
 ?>
