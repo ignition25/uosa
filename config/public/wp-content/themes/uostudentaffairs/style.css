@@ -258,6 +258,6 @@ a.uonav:hover {
 	width: 100%;
 	height: 90px;
 	margin-bottom: 80px;
-	background-size: 100% 90px;
+	background-size: cover;
 	background-image: url('images/banner.png');
 }
