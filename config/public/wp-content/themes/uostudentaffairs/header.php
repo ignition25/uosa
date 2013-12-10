@@ -69,7 +69,8 @@
         </div>
 
         </div><!-- Container -->
-        <div id="banner-container">
-          <img src="<?php echo get_bloginfo('template_url') ?>/images/banner.png" />
-        </div>
+
+        <div id="banner-container"></div>
+
         <div class="container">
+

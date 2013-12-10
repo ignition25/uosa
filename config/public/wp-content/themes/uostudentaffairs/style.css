@@ -256,5 +256,7 @@ a.uonav:hover {
 
 #banner-container {
 	width: 100%;
+	height: 90px;
 	margin-bottom: 80px;
+	background: url('images/banner.png');
 }
