@@ -61,9 +61,15 @@
               <li><a href="<?php echo esc_url(get_category_link( get_cat_ID( 'People' ) )); ?>">PEOPLE</a></li>
               <li><a href="<?php echo esc_url(get_category_link( get_cat_ID( 'Kudos' ) )); ?>">KUDOS</a></li>
               <li><a href="<?php echo esc_url(get_category_link( get_cat_ID( 'News' ) )); ?>">NEWS</a></li>
-              <li><a href="<?php echo site_url(); ?>" style="padding: 5px 45px;"><img id="navbar-centered-logo" src="<?php echo get_bloginfo('template_url') ?>/images/logo.png" /></a></li>
+              <li><a href="<?php echo site_url(); ?>" style="padding: 5px 60px;"><img id="navbar-centered-logo" src="<?php echo get_bloginfo('template_url') ?>/images/logo.png" /></a></li>
               <li><a href="<?php echo esc_url(get_category_link( get_cat_ID( 'Highlights' ) )); ?>">HIGHLIGHTS</a></li>
-              <li><a href="<?php echo esc_url(get_category_link( get_cat_ID( 'Student Experiences' ) )); ?>">STUDENT EXPERIENCE</a></li>
+              <li><a href="<?php echo esc_url(get_category_link( get_cat_ID( 'Student Experience' ) )); ?>">STUDENT EXPERIENCE</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
+
+        </div><!-- Container -->
+        <div id="banner-container">
+          <img src="<?php echo get_bloginfo('template_url') ?>/images/banner.png" />
+        </div>
+        <div class="container">
