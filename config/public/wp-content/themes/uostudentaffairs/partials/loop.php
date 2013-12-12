@@ -9,7 +9,7 @@
 				<?php } else { ?>
 					<img src="<?php echo get_bloginfo('template_url') ?>/images/post-nofeatured.png" class="attachment-post-thumbnail">
 				<?php } ?>
-				<h4 class="post-title">&raquo; <?php the_title(); ?></h4>
+				<h4 class="post-title">&raquo; <span><?php the_title(); ?></span></h4>
 			</a>
 			<span class="post-date"><small>POSTED: <?php echo strtoupper(the_date('M. j \A\T g:i A', '', '', false)); ?></small></span>
 			<div class="clearfix"></div>

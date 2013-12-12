@@ -275,11 +275,11 @@ a.uonav:hover {
 	background-image: url('images/banner.png');
 }
 
-a.index-category-link:hover {
+a.index-category-link:hover, .post-loop .post a {
 	text-decoration: none;
 }
 
-.index-category-header span.category-title:hover {
+.index-category-header span.category-title:hover, .post-loop .post-title span:hover {
 	border-bottom: 1px solid #333333;
 }
 
