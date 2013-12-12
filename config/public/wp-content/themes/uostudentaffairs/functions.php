@@ -53,9 +53,57 @@
 		} 
 	}
 
+	function is_pinned_to_front($term_id) {
+		if ( get_field("pin_to_index_page", "category_" . $term_id )[0] == true ) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
 	function category_path($slug) {
 		echo "/category/" . $slug . "/";
 	}
+
+	// Pin categories to Index.php.
+	if(function_exists("register_field_group")) {
+		register_field_group(array (
+			'id' => 'acf_pin_categories',
+			'title' => 'PinCategories',
+			'fields' => array (
+				array (
+					'key' => 'field_52a90a462ded6',
+					'label' => 'Pin to Index Page?',
+					'name' => 'pin_to_index_page',
+					'type' => 'checkbox',
+					'choices' => array (
+						'true' => 'yes',
+					),
+					'default_value' => '',
+					'layout' => 'horizontal',
+				),
+			),
+			'location' => array (
+				array (
+					array (
+						'param' => 'ef_taxonomy',
+						'operator' => '==',
+						'value' => 'all',
+						'order_no' => 0,
+						'group_no' => 0,
+					),
+				),
+			),
+			'options' => array (
+				'position' => 'normal',
+				'layout' => 'no_box',
+				'hide_on_screen' => array (
+				),
+			),
+			'menu_order' => 0,
+		));
+	}
+
 
 	// Category featured images.
 	if(function_exists("register_field_group")) {
