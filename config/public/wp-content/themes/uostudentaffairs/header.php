@@ -70,7 +70,7 @@
 
         </div><!-- Container -->
 
-        <div id="banner-container"><img id="newsletter-badge" src="<?php echo get_bloginfo('template_url') ?>/images/newsletter.png"></div></div>
+        <div id="banner-container"><img id="newsletter-badge" src="<?php echo get_bloginfo('template_url') ?>/images/newsletter.png"></div>
 
         <div class="container">
 
