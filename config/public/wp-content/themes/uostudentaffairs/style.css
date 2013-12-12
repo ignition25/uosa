@@ -49,8 +49,10 @@ License URI:
 	margin-bottom: 10px;
 }
 
-.post-content {
-	font-family: "Times New Roman", serif;
+.post-content, .category-description {
+	font-family: "Georgia", serif;
+	font-size: 15px;
+	line-height: 23px;
 }
 
 .aligncenter {
@@ -172,9 +174,7 @@ a.uonav:hover {
 }
 
 .category-description {
-	max-width: 70%;
-	font-size: 14px;
-	font-family: "Times New Roman", serif;
+	max-width: 80%;
 	font-style: italic;
 }
 
@@ -184,6 +184,14 @@ a.uonav:hover {
 
 #sidebar-icon-links {
 	font-weight: bold;
+}
+
+#sidebar-icon-links a:hover {
+	text-decoration: none;
+}
+
+#sidebar-icon-links span:hover {
+	border-bottom: 1px solid #333333;
 }
 
 #sidebar-icon-links a li{
@@ -215,6 +223,10 @@ a.uonav:hover {
 	letter-spacing: 2px;
 }
 
+.single-post .post-date {
+	margin-bottom: 20px;
+}
+
 .post-loop .attachment-post-thumbnail {
 	width: 49px;
 	height: 49px;
@@ -238,7 +250,7 @@ a.uonav:hover {
 }
 
 .post-loop .post .post-title ,
-.index-category-title {
+.index-category-header {
 	color: #333333;
 }
 
@@ -255,9 +267,27 @@ a.uonav:hover {
 }
 
 #banner-container {
+	position: relative;
 	width: 100%;
 	height: 90px;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 	background-size: cover;
 	background-image: url('images/banner.png');
+}
+
+a.index-category-link:hover {
+	text-decoration: none;
+}
+
+.index-category-header span.category-title:hover {
+	border-bottom: 1px solid #333333;
+}
+
+img#newsletter-badge {
+	position:relative;
+	top: -20px;
+	display:block;
+	width: 127px;
+	height: 42px;
+	margin: 0 auto;
 }

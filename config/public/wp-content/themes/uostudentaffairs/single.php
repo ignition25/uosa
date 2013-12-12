@@ -3,12 +3,12 @@
     <div class="col-md-<?php main_content_columns(); ?>">
       <div class="single-post">
         <!-- Main content -->
-        <?php $title = strtoupper(single_post_title('', false)); ?>
+        <?php $title = single_post_title('', false); ?>
         <?php page_header($title); ?>
 
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="post-wrapper">
-          <div class="post-meta">
+          <div class="post-date">
             POSTED: <?php echo strtoupper(the_date('M. j \A\T g:i A', '', '', false)); ?>
           </div>
           <div class="post-content">

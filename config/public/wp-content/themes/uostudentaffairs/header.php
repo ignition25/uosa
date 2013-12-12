@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>UO Student Affairs</title>
+    <title><?php wp_title('|', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
@@ -70,7 +70,7 @@
 
         </div><!-- Container -->
 
-        <div id="banner-container"></div>
+        <div id="banner-container"><img id="newsletter-badge" src="<?php echo get_bloginfo('template_url') ?>/images/newsletter.png"></div></div>
 
         <div class="container">
 
