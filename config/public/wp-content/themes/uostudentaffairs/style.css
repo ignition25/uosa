@@ -14,6 +14,10 @@ License URI:
 
 @import url('css/bootstrap.css'); 
 
+body {
+	background: url('images/background-tile.jpg') repeat;
+}
+
 #navbar-centered-logo {
 	display: inline-block;
 	margin: 0 auto;
