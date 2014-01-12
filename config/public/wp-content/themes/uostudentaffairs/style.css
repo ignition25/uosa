@@ -295,3 +295,11 @@ img#newsletter-badge {
 	height: 42px;
 	margin: 0 auto;
 }
+
+#lw {
+	background-color: transparent !important;
+}
+
+.lwe:last-child {
+	border-bottom: none !important;
+}
